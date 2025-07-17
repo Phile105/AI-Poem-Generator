@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter a topic for your poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for your poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Love or Sun</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
